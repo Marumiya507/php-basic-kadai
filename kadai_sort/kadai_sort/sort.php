@@ -28,9 +28,11 @@
 
         }
         
-        sort_2way(TRUE, $nums);
+        $order = TRUE;
+        sort_2way($nums, $order);
 
-        sort_2way(FALSE, $nums);
+        $order = FALSE;
+        sort_2way($nums, $order);
 
         ?>
     </p>
